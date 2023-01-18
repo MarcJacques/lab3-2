@@ -7,14 +7,14 @@ int main()
   const double CELSIUS_CONVERSION = 5.0/9.0;
   // cout << CELSIUS_CONVERSION;
   //input fahrenheit temp
-  cout << "Enter temperature in fahrenheit" << endl;
+  cout << "Degrees in Fahrenheit:" << endl;
   cin >> fahr_temp;
   
   //convert from fahrenheit to Celsius
   cels_temp = (CELSIUS_CONVERSION) * (fahr_temp - 32.0);
   
   //output both the fahrenheit and Celsius temperatures neatly formatted
-  cout << "Fahrenheit = " << fahr_temp << "\nCelsius = " << cels_temp << endl;
+  cout << "Degrees in Fahrenheit = " << fahr_temp << "\nDegrees in Celsius = " << cels_temp << endl;
   
   return 0;
 }
